@@ -1,0 +1,46 @@
+$theme-colors: (
+"primary": #858d1b,
+"secondary": #ff9100,
+"success":#8D958D,
+"danger": #A177C3,
+"warning": #D1BC59,
+"info":#E1635D,
+"light":#667060,
+"dark":#d3a200,
+"muted":#DBEBDF,
+"white":#10162B
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+:root{
+    --main-color: #8A7971;
+    --light-accent: #A08D9B;
+    --light-accent-second: #989C83;
+    --dark-accent: #908A87;
+    --dark-shade: #221E26;
+    --light-shade: #EFF0E7;
+    --main-font: 'Cormorant Garamond', serif;
+    --secondary-font: 'Roboto Slab', serif;
+    --text-font: 'Telex', sans-serif;
+
+}
+
+body{
+    font-family: var(--main-font);
+    font-weight: 600;
+
+    background-color: var(--light-accent);
+} 
+
+h1{
+    font-size: 1.2em;
+}
+#exercici-2 div{
+  padding: 0.5rem 0;
+  width: fit-content;
+}
+
+ .txt{
+  background-color: var(--light-shade)
+}
